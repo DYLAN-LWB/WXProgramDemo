@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/person/person"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "王者农药",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "color": "gray",
+    "selectedColor": "orange",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"image/tab_01.png",
+      "selectedIconPath": "image/tab_01_sel.png"
+    }, {
+      "pagePath": "pages/person/person",
+      "text": "个人中心",
+      "iconPath":"image/tab_05.png",
+      "selectedIconPath": "image/tab_05_sel.png"
+    }]
+  },
+  "debug":false
+}

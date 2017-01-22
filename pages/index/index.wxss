@@ -1,0 +1,41 @@
+/**index.wxss**/
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  height: 220rpx;
+}
+
+.list-image {
+  width: 300rpx;
+  height: 180rpx;
+  margin: 20rpx;
+}
+
+.list-text {
+  float: left;
+  margin-left: 350rpx;
+  margin-top: -220rpx;
+}
+
+.list-title {
+  margin: 10rpx;
+  font-size: 30rpx;
+  float: left;
+}
+
+.list-subtitle {
+  margin: 10rpx;
+  font-size: 24rpx;
+  color: darkgray;
+  float: left;
+}
+
+.list-line {
+  width: 100%;
+  height: 2rpx;
+  background-color: lightgray;
+  margin-bottom: 15rpx;
+}

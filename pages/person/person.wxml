@@ -1,0 +1,6 @@
+<view class="viewStyle1" id="{{id}}" >{{bol?"YES":"NO"}} {{name}}</view>
+<button class="buttonStyle1" bindtap="hideButtonClick"> 显示or隐藏</button>
+<view class="viewStyle1" wx:if="{{bol}}">{{pwd}}</view>
+<view class="viewStyle1">数字加法{{id + 10}}</view>
+<view class="viewStyle1">{{"字符串拼接" + name}}</view>
+<view class="viewStyle1" wx:for="{{array}}" >第{{item}}行</view>

@@ -1,0 +1,2 @@
+<view>详情页</view>
+<button bindtap="back" class="userbutton">点击返回</button>
