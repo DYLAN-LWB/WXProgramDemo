@@ -1,5 +1,9 @@
 /**index.wxss**/
 
+.list-scroll-view {
+  height: 100%;
+}
+
 .list-item {
   display: flex;
   flex-direction: column;

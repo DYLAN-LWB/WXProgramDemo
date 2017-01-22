@@ -8,7 +8,6 @@ Page({
   },
 
   onLoad:function(options){    
-    common.sayHello(app.globalData.userInfo.nickName);
     common.sayGoodbye(app.globalData.newpwd);
   },
 
@@ -16,17 +15,6 @@ Page({
     wx.navigateBack({
       delta: 1 // 回退前 delta(默认为1) 页面
      })
-  },
-
-
-
-
-  onPullDownRefresh: function() {
-    // 页面相关事件处理函数--监听用户下拉动作
-  },
-
-  onReachBottom: function() {
-    // 页面上拉触底事件的处理函数
   },
 
   onShareAppMessage: function() {

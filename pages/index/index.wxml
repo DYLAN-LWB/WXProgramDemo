@@ -1,18 +1,14 @@
 <!--index.wxml-->
 
-<scroll-view style="height: 100%;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+<scroll-view class="list-scroll-view" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll">
   <block wx:for="{{list}}">
     <view class="list-item" data-id="{{item.id}}" bindtap="itemTap">
-      <view>
-        <image src="{{item.titleimg}}" class="list-image"></image>
-      </view>
+      <image src="{{item.titleimg}}" class="list-image"></image>
       <view class="list-line"></view>
-
       <view class="list-text">  
         <text class="list-title">{{item.title}}</text>
         <text class="list-subtitle">{{item.subtitle}}</text>
       </view>
-    
     </view>
   </block>
 </scroll-view>
